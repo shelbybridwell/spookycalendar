@@ -28,17 +28,24 @@ body {
   .description {
     white-space: pre-wrap;
   }
-  
+  #day-1, #day-2, #day-3, #day-4, #day-5 {
+    border-radius: 7px;
+    background-color: var(--main1);
+    padding: 4px;
+    overflow: auto;
+    box-shadow: 9px 9px 9px gray;
+  }
   .hour-block {
     text-align: center;
     border-radius: 18px;
   }
   
   .row {
-    white-space: pre-wrap;
+    flex-wrap: nowrap;
     height: 80px;
     border-top: 1px solid white;
     margin-bottom: 7px;
+    justify-content: center;
   }
   
   .hour {
